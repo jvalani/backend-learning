@@ -3,8 +3,15 @@ const add = (a,b) =>{
 }
 
 const mul = (a,b) => {
-    return a*b
+    return a*b;
 }
 
-module.exports.add = add;
-module.exports.mul= mul
+const div = (a,b) => {
+    return a/b;
+}
+
+const sub = (a,b) => {
+    return a-b;
+}
+
+module.exports = {add,mul,sub,div}

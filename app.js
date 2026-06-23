@@ -1,7 +1,9 @@
-const { add, mul } = require('./math.js');
+const {add,mul,sub,div} = require('./math.js');
 
 
-console.log(add(2,5));
+console.log(add(2,3));
 console.log(mul(2,3));
+console.log((div(2,3)))
+console.log(sub(2,3))
 
 //common.js
